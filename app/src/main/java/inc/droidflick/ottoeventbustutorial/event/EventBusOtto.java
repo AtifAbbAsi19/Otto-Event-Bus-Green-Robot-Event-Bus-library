@@ -2,11 +2,8 @@ package inc.droidflick.ottoeventbustutorial.event;
 
 import android.content.Context;
 
-
 import com.squareup.otto.Bus;
 import com.squareup.otto.ThreadEnforcer;
-
-import java.io.ObjectStreamException;
 
 import inc.droidflick.ottoeventbustutorial.model.Events;
 

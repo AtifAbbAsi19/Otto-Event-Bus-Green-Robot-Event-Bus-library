@@ -7,14 +7,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 import inc.droidflick.ottoeventbustutorial.R;
 import inc.droidflick.ottoeventbustutorial.model.Events;
-import inc.droidflick.ottoeventbustutorial.ui.BaseActivity;
 
 public class GreenRobotEventBus extends BaseActivity implements View.OnClickListener {
 

@@ -1,7 +1,6 @@
-package inc.droidflick.ottoeventbustutorial.core;
+package inc.droidflick.ottoeventbustutorial.ui.core;
 
 import android.app.Application;
-
 
 import com.squareup.otto.ThreadEnforcer;
 

@@ -19,7 +19,7 @@ public class SquareUpOttoEventBus extends BaseActivity implements View.OnClickLi
 
 
     @Override
-    int getLayoutId() {
+    public int getLayoutId() {
         return R.layout.activity_second;
     }
 
@@ -35,7 +35,7 @@ public class SquareUpOttoEventBus extends BaseActivity implements View.OnClickLi
     }
 
     @Override
-    void init() {
+    public void init() {
         message = findViewById(R.id.hello);
         addTrigger = findViewById(R.id.addTrigger);
 
@@ -43,7 +43,7 @@ public class SquareUpOttoEventBus extends BaseActivity implements View.OnClickLi
     }
 
     @Override
-    void initUiListeners() {
+   public void initUiListeners() {
         addTrigger.setOnClickListener(this);
         nextActivity.setOnClickListener(this);
     }

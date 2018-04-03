@@ -29,11 +29,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onStart();
     }
 
-    abstract int getLayoutId();
+    public abstract int getLayoutId();
 
-    abstract void init();
+    public abstract void init();
 
-    abstract void initUiListeners();
+    public abstract void initUiListeners();
 
 
     public static void startNewActivity(Activity activity, Class clazz) {

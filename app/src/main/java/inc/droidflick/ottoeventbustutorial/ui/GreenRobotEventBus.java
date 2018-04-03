@@ -19,7 +19,7 @@ public class GreenRobotEventBus extends BaseActivity implements View.OnClickList
 
 
     @Override
-    int getLayoutId() {
+    public int getLayoutId() {
         return R.layout.activity_main;
     }
 
@@ -35,7 +35,7 @@ public class GreenRobotEventBus extends BaseActivity implements View.OnClickList
     }
 
     @Override
-    void init() {
+    public void init() {
         messageLabel = findViewById(R.id.messageLabel);
 
         addTrigger = findViewById(R.id.addTrigger);
@@ -44,7 +44,7 @@ public class GreenRobotEventBus extends BaseActivity implements View.OnClickList
     }
 
     @Override
-    void initUiListeners() {
+    public void initUiListeners() {
         addTrigger.setOnClickListener(this);
         nextActivity.setOnClickListener(this);
     }

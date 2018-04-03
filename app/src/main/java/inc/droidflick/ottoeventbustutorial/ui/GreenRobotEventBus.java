@@ -13,6 +13,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import inc.droidflick.ottoeventbustutorial.R;
 import inc.droidflick.ottoeventbustutorial.model.Events;
+import inc.droidflick.ottoeventbustutorial.ui.core.BaseActivity;
 
 public class GreenRobotEventBus extends BaseActivity implements View.OnClickListener {
 

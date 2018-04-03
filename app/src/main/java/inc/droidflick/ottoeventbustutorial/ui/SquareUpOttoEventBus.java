@@ -12,7 +12,7 @@ import com.squareup.otto.Subscribe;
 import inc.droidflick.ottoeventbustutorial.R;
 import inc.droidflick.ottoeventbustutorial.event.EventBusOtto;
 import inc.droidflick.ottoeventbustutorial.model.Events;
-
+import inc.droidflick.ottoeventbustutorial.ui.core.BaseActivity;
 
 
 public class SquareUpOttoEventBus extends BaseActivity implements View.OnClickListener {

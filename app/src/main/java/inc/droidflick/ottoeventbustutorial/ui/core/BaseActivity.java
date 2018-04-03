@@ -1,4 +1,4 @@
-package inc.droidflick.ottoeventbustutorial.ui;
+package inc.droidflick.ottoeventbustutorial.ui.core;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Atif Arif on 4/2/2018.
  */
 
-abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
 
     @Override

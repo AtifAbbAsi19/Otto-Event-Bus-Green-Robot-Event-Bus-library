@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.squareup.otto.ThreadEnforcer;
 
+import inc.droidflick.ottoeventbustutorial.accessors.Accessors;
 import inc.droidflick.ottoeventbustutorial.event.EventBusOtto;
 
 /**
@@ -23,6 +24,15 @@ public class AppClass extends Application {
          **/
 
         EventBusOtto.getInstance(ThreadEnforcer.MAIN);
+
+        /**
+         *
+         * Getter Setters For Public static Variables
+         *
+         **/
+
+        Accessors instance = new Accessors();
+
 
     }
 }
